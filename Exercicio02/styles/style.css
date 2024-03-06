@@ -1,0 +1,39 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 100px 1fr;
+    grid-template-areas:
+        "sidebar header"
+        "sidebar content";
+    min-height: 100vh;
+}
+
+header {
+    grid-area: header;
+    background-color: #3498db;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside {
+    grid-area: sidebar;
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 20px;
+}
+
+main {
+    grid-area: content;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 20px;
+}
