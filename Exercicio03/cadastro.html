@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M1S07 Exercicio 04 - Utilizando uma das formas de construção de layout, produza uma tela de cadastro</title>
+    <link rel="stylesheet" href="./styles/cadastro.css">
+    <script src="https://kit.fontawesome.com/d64ef9df2c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="title">
+                <h1>Create an account</h1>
+                <p class="subtitle">Setup a free account to get access </p>
+            </div>
+            <form>
+                <div class="input-box">
+                    <label for="name">Full name</label>
+                    <input class="input" type="text" id="name" name="name" placeholder="Please enter the full name">
+                </div>
+                <div class="input-box">
+                    <label for="username">Username</label>
+                    <input class="input" type="text" id="username" name="username"
+                        placeholder="Please enter your username">
+                </div>
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input class="input" type="email" id="email" name="email" placeholder="Please enter your email">
+                </div>
+                <div class="input-box">
+                    <label for="phoneNumber">Phone number</label>
+                    <input class="input input-phone" type="tel" id="phoneNumber" name="phoneNumber"
+                        placeholder="Please enter your phone number">
+                </div>
+
+                <div class="buttons">
+                    <button class="btn" type="submit">Sign Up</button>
+                    <p class="have-account">Already have an account? <a href="#">Login</a></p>
+                </div>
+            </form>
+        </div>
+</body>
+
+</html>

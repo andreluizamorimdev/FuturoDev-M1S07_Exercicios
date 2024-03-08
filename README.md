@@ -40,9 +40,14 @@ Utilizar CSS Grid ou Flexbox para a base da tela.
 Siga uma arquitetura próxima a imagem abaixo, não necessita copiar todos os elementos visuais / design.
 Link de referencia: https://dribbble.com/shots/22389071-Sign-Up
 
+obs: Complemento do exercicio 03 estará na mesma pasta.
+
 ## Exercicio 05 - Adicione um redirecionamento de tela por meio da tag a entre login e cadastro
 
 Em ‘Register here’ presente na tela de login, adicione uma ação de redirecionamento por meio da 'tag a' diretamente para a página de cadastro.
+
+obs: Complemento do exercicio 03 estará na mesma pasta.
+
 
 ## Exercicio 06 - Construa a seção do site presente na descrição
 
